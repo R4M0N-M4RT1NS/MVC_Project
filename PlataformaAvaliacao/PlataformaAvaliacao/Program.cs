@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using PlataformaAvaliação.Data;
+using PlataformaAvaliacao.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

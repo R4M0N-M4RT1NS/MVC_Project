@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CkN3nc46OJU=",
+  "dgSpecHash": "ApDbRWZSsQs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\João\\Projetos\\Projeto ASP.NET MVC Plataforma de avaliação de materias\\MVC_Project\\PlataformaAvaliação\\PlataformaAvaliação\\PlataformaAvaliacao.csproj",
+  "projectFilePath": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\João\\Projetos\\Projeto ASP.NET MVC Plataforma de avaliação de materias\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\PlataformaAvaliacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\55159\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\55159\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

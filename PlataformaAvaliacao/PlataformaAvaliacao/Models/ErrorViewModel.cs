@@ -1,4 +1,4 @@
-namespace PlataformaAvaliação.Models
+namespace PlataformaAvaliacao.Models
 {
     public class ErrorViewModel
     {

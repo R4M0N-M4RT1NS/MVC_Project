@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace PlataformaAvaliação.Data;
+namespace PlataformaAvaliacao.Data;
 
 public class ApplicationDbContext : IdentityDbContext
 {
