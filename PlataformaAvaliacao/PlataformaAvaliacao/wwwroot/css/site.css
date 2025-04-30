@@ -1,31 +1,74 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    background-color: #1e1e1e;
+    color: #f1f1f1;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.bg-metal {
+    background: linear-gradient(135deg, #2f2f2f, #3d3d3d);
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.navbar-brand,
+.nav-link,
+footer a {
+    color: #69a3ff !important;
 }
+
+    .nav-link:hover,
+    footer a:hover {
+        color: #c0d6ff !important;
+    }
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer {
+    background-color: #2b2b2b;
+}
+
+/* ---------- NOVO: Ajustes para formulários ---------- */
+
+form,
+form label,
+form input,
+form select,
+form textarea,
+form button {
+    color: #ffffff !important;
+}
+
+    form input,
+    form select,
+    form textarea {
+        background-color: #2b2b2b;
+        border: 1px solid #555;
+        color: #ffffff;
+    }
+
+        form input::placeholder,
+        form textarea::placeholder {
+            color: #cccccc;
+        }
+
+    form button {
+        background-color: #444;
+        color: #ffffff;
+        border: 1px solid #666;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+        form button:hover {
+            background-color: #666;
+        }
+
+    /* Extra: títulos e legendas de formulário */
+    form h1,
+    form h2,
+    form h3,
+    form legend {
+        color: #ffffff;
+    }

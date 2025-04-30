@@ -1,53 +1,48 @@
 ﻿@model PlataformaAvaliacao.Models.Avaliacao
-
 @{
-    ViewData["Title"] = "Create";
+    var isEdit = ViewData["Title"]?.ToString() == "Edit";
+    ViewData["Title"] = isEdit ? "Edit" : "Create";
 }
-
-<h1>Create</h1>
-
-<h4>Avaliacao</h4>
+<h1>@ViewData["Title"]</h1>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+<div class="card bg-metal border-light shadow-sm">
+    <div class="card-body">
+        <form asp-action="@ViewData["Title"]">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="MatriculaId" class="control-label"></label>
+            @if (isEdit) {
+                <input type="hidden" asp-for="Id" />
+            }
+            <div class="mb-3">
+                <label asp-for="MatriculaId" class="form-label"></label>
                 <input asp-for="MatriculaId" class="form-control" />
                 <span asp-validation-for="MatriculaId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Nota" class="control-label"></label>
+            <div class="mb-3">
+                <label asp-for="Nota" class="form-label"></label>
                 <input asp-for="Nota" class="form-control" />
                 <span asp-validation-for="Nota" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Comentario" class="control-label"></label>
+            <div class="mb-3">
+                <label asp-for="Comentario" class="form-label"></label>
                 <input asp-for="Comentario" class="form-control" />
                 <span asp-validation-for="Comentario" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Recomendarai" /> @Html.DisplayNameFor(model => model.Recomendarai)
-                </label>
+            <div class="form-check mb-3">
+                <input class="form-check-input" asp-for="Recomendarai" />
+                <label class="form-check-label">Recomendaria?</label>
             </div>
-            <div class="form-group">
-                <label asp-for="DataAvaliacao" class="control-label"></label>
+            <div class="mb-3">
+                <label asp-for="DataAvaliacao" class="form-label"></label>
                 <input asp-for="DataAvaliacao" class="form-control" />
                 <span asp-validation-for="DataAvaliacao" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+            <button type="submit" class="btn btn-primary rounded-pill">Criar</button>
+            <a asp-controller="Avaliacao" asp-action="Index" class="btn btn-outline-light rounded-pill">Voltar</a>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

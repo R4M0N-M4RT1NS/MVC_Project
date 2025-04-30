@@ -8127,23 +8127,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\55159\\.nuget\\packages\\": {},
+    "C:\\Users\\ramon\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\PlataformaAvaliacao.csproj",
+      "projectUniqueName": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\PlataformaAvaliacao.csproj",
       "projectName": "PlataformaAvaliacao",
-      "projectPath": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\PlataformaAvaliacao.csproj",
-      "packagesPath": "C:\\Users\\55159\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\obj\\",
+      "projectPath": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\PlataformaAvaliacao.csproj",
+      "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
+      "outputPath": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\55159\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ramon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
