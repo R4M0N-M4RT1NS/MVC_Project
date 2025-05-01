@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\avaliacao\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\avaliacao\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\controllers\\disciplinaofertadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\controllers\\disciplinaofertadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\avaliacao\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\avaliacao\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\controllers\\disciplinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\controllers\\disciplinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\avaliacao\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\avaliacao\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\controllers\\avaliacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\controllers\\avaliacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\avaliacao\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\avaliacao\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\avaliacao\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\avaliacao\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\models\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\models\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\avaliacao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\avaliacao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\disciplinaofertada\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\disciplinaofertada\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\avaliacao\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\avaliacao\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,40 +59,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Create.cshtml",
-              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Avaliacao\\Create.cshtml",
-              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Create.cshtml",
-              "RelativeToolTip": "PlataformaAvaliacao\\Views\\Avaliacao\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T18:59:20.402Z",
+              "Title": "DisciplinaOfertadaController.cs",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
+              "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAwwJMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:31:49.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Avaliacao\\Edit.cshtml",
-              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Edit.cshtml",
-              "RelativeToolTip": "PlataformaAvaliacao\\Views\\Avaliacao\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T18:31:24.095Z",
+              "Title": "DisciplinaController.cs",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\DisciplinaController.cs",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Controllers\\DisciplinaController.cs",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\DisciplinaController.cs",
+              "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\DisciplinaController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAwwIUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:31:06.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AvaliacaoController.cs",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\AvaliacaoController.cs",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Controllers\\AvaliacaoController.cs",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\AvaliacaoController.cs",
+              "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\AvaliacaoController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwIMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:28:53.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Avaliacao.cs",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Models\\Avaliacao.cs",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Models\\Avaliacao.cs",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Models\\Avaliacao.cs",
+              "RelativeToolTip": "PlataformaAvaliacao\\Models\\Avaliacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:28:49.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Avaliacao\\Index.cshtml",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Index.cshtml",
+              "RelativeToolTip": "PlataformaAvaliacao\\Views\\Avaliacao\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:21:18.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\DisciplinaOfertada\\Create.cshtml",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\DisciplinaOfertada\\Create.cshtml",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\DisciplinaOfertada\\Create.cshtml",
+              "RelativeToolTip": "PlataformaAvaliacao\\Views\\DisciplinaOfertada\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T15:11:51.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Details.cshtml",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Avaliacao\\Details.cshtml",
               "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Details.cshtml",
               "RelativeToolTip": "PlataformaAvaliacao\\Views\\Avaliacao\\Details.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwB8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T18:30:57.446Z",
+              "WhenOpened": "2025-05-01T14:35:44.153Z",
               "EditorCaption": ""
             },
             {
@@ -95,48 +155,23 @@
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Avaliacao\\Delete.cshtml",
               "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Delete.cshtml",
               "RelativeToolTip": "PlataformaAvaliacao\\Views\\Avaliacao\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T18:30:55.847Z",
+              "WhenOpened": "2025-05-01T14:48:47.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "PlataformaAvaliacao\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "PlataformaAvaliacao\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-30T17:59:53.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "PlataformaAvaliacao\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Avaliacao\\Edit.cshtml",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Avaliacao\\Edit.cshtml",
+              "RelativeToolTip": "PlataformaAvaliacao\\Views\\Avaliacao\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T17:59:35.003Z",
+              "WhenOpened": "2025-05-01T14:36:57.396Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PlataformaAvaliacao\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwEcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T17:51:55.571Z"
             }
           ]
         }

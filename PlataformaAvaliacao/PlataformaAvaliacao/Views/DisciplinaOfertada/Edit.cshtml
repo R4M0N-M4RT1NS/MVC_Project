@@ -1,49 +1,46 @@
 ﻿@model PlataformaAvaliacao.Models.DisciplinaOfertada
-
 @{
-    ViewData["Title"] = "Edit";
+    var isEdit = ViewData["Title"]?.ToString() == "Edit";
+    ViewData["Title"] = isEdit ? "Editar Disciplina" : "Adicionar Disciplina á Grade";
 }
 
-<h1>Edit</h1>
-
-<h4>DisciplinaOfertada</h4>
+<h1>@ViewData["Title"]</h1>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
+
+<div class="card bg-metal border-light shadow-sm">
+    <div class="card-body">
+        <form asp-action="@ViewData["Title"]">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="DisciplinaId" class="control-label"></label>
-                <select asp-for="DisciplinaId" class="form-control" asp-items="ViewBag.DisciplinaId"></select>
+            @if (isEdit) {
+                <input type="hidden" asp-for="Id" />
+            }
+            <div class="mb-3">
+                <label asp-for="DisciplinaId" class="form-label">Id da Disciplina</label>
+                <input asp-for="DisciplinaId" class="form-control" />
                 <span asp-validation-for="DisciplinaId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="ProfessorId" class="control-label"></label>
-                <select asp-for="ProfessorId" class="form-control" asp-items="ViewBag.ProfessorId"></select>
+            <div class="mb-3">
+                <label asp-for="ProfessorId" class="form-label">Id do Professor</label>
+                <input asp-for="ProfessorId" class="form-control" />
                 <span asp-validation-for="ProfessorId" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Ano" class="control-label"></label>
+            <div class="mb-3">
+                <label asp-for="Ano" class="form-label">Ano</label>
                 <input asp-for="Ano" class="form-control" />
                 <span asp-validation-for="Ano" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Semestre" class="control-label"></label>
+            <div class="mb-3">
+                <label asp-for="Semestre" class="form-label">Semestre</label>
                 <input asp-for="Semestre" class="form-control" />
                 <span asp-validation-for="Semestre" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+            <button type="submit" class="btn btn-primary rounded-pill">Editar</button>
+            <a asp-controller="Disciplina" asp-action="Index" class="btn btn-outline-light rounded-pill">Voltar</a>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

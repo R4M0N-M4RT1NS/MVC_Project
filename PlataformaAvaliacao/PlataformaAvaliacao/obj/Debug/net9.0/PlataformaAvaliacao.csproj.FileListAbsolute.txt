@@ -863,7 +863,6 @@ C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\c
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\livzx60wvs-61n19gt1b8.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\8zgtxk9vad-xtxxf3hu2r.gz
-C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\xbcc0kbjx3-t1cqhe9u97.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\kcjzs15ukk-c2jlpeoesf.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\2yad0tz62q-sejl45xvog.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\x4iqfkvyb4-aexeepp0ev.gz
@@ -887,7 +886,6 @@ C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\c
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\q2ffoyfw4h-j5mq2jizvt.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\8zz5r9k5yq-keugtjm085.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\mj4qc36ge0-nvvlpmu67g.gz
-C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\k66d6xtgrv-zub09dkrxp.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\6oy3uptaxm-pj5nd1wqec.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\ne12mfz42g-43atpzeawx.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\ibjw2g6n1w-v0zj4ognzu.gz
@@ -903,7 +901,6 @@ C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\c
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\ljgxu79ryk-kbrnm935zg.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\teocleiy84-8vyfqsqgz1.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\jvnrajz7kg-y7v9cxd14o.gz
-C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\llgkpdwpc2-u9q1upor1n.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\ozxe6mun0j-h1s4sie4z3.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\xqucsv8dit-4d85u1mtcx.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\d9334stfg1-0j3bgjxly4.gz
@@ -940,4 +937,7 @@ C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\r
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\PlataformaAvaliacao.pdb
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\PlataformaAvaliacao.genruntimeconfig.cache
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\ref\PlataformaAvaliacao.dll
-C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\7p0kv6tz3r-kj3l60nlho.gz
+C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\xbcc0kbjx3-t1cqhe9u97.gz
+C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\k66d6xtgrv-zub09dkrxp.gz
+C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\llgkpdwpc2-u9q1upor1n.gz
+C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\7p0kv6tz3r-upwn9eq7s2.gz

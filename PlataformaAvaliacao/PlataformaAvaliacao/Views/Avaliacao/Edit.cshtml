@@ -1,9 +1,15 @@
 ﻿@model PlataformaAvaliacao.Models.Avaliacao
 @{
     var isEdit = ViewData["Title"]?.ToString() == "Edit";
-    ViewData["Title"] = isEdit ? "Editar Avaliação" : "Nova Avaliação";
+    ViewData["Title"] = isEdit ? "Create" : "Edit";
 }
-<h1>@ViewData["Title"]</h1>
+@if (isEdit) {
+    <h1>Editar Avaliação</h1>
+}
+else {
+    <h1>Deletar Avaliação</h1>
+}
+
 <hr />
 <div class="card bg-metal border-light shadow-sm">
     <div class="card-body">
