@@ -1,48 +1,102 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - PlataformaAvaliacao</title>
-    <script type="importmap"></script>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PlataformaAvaliacao.styles.css" asp-append-version="true" />
+
+    <style>
+        body {
+            background-color: #1c1f26;
+        }
+
+        .bg-metal {
+            background: linear-gradient(135deg, #2c2f36, #1e2127);
+        }
+
+        .navbar .nav-link,
+        .navbar-brand {
+            color: #6ea8fe !important;
+        }
+
+            .navbar .nav-link:hover {
+                color: #ffffff !important;
+            }
+
+        .btn-outline-primary {
+            color: #6ea8fe;
+            border-color: #6ea8fe;
+        }
+
+            .btn-outline-primary:hover {
+                background-color: #6ea8fe;
+                color: #fff;
+            }
+
+        footer a {
+            color: #aaa;
+        }
+
+            footer a:hover {
+                color: #fff;
+            }
+
+        .logo-img {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PlataformaAvaliacao</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
-                </div>
+<body class="bg-dark text-light d-flex flex-column min-vh-100">
+    <header class="shadow-sm bg-metal border-bottom">
+        <nav class="navbar navbar-expand-lg container-fluid py-3 px-4">
+            <a class="navbar-brand fw-semibold text-primary d-flex align-items-center gap-2" asp-controller="Home" asp-action="Index">
+                <img src="https://static.vecteezy.com/system/resources/previews/006/720/668/non_2x/dog-face-logo-free-vector.jpg"
+                     alt="Logo" class="rounded-circle logo-img" />
+                Plataforma de AvaliaCão
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="mainNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Avaliacao" asp-action="Index">Avaliação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Disciplina" asp-action="Index">Disciplina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Professor" asp-action="Index">Professor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="DisciplinaOfertada" asp-action="Index">Disciplina Ofertada</a>
+                    </li>
+                </ul>
+                <partial name="_LoginPartial" />
             </div>
         </nav>
     </header>
-    <div class="container">
+
+    <div class="container px-4 py-4 flex-grow-1">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - PlataformaAvaliacao - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="bg-metal border-top py-3 text-center text-secondary small mt-auto">
+        <div class="container px-4">
+            &copy; 2025 - Plataforma de AvaliaCão - <a asp-controller="Home" asp-action="Privacy">Privacidade</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
