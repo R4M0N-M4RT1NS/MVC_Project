@@ -131,7 +131,8 @@ namespace PlataformaAvaliacao.Controllers
                 return NotFound();
             }
 
-            return View(avaliacao);
+            ViewData["Title"] = "Delete";
+            return View("Details", avaliacao); // Reutilizando a View
         }
 
         // POST: Avaliacao/Delete/5
