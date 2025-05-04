@@ -1,5 +1,8 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using PlataformaAvaliacao.Authorization.Handlers;
+using PlataformaAvaliacao.Authorization.Requirements;
 using PlataformaAvaliacao.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +16,14 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("PodeAvaliarDisciplina", policy =>
+        policy.Requirements.Add(new AvaliacaoDisciplinaRequirement()));
+});
+builder.Services.AddSingleton<IAuthorizationHandler, AvaliacaoDisciplinaHandler>();
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 

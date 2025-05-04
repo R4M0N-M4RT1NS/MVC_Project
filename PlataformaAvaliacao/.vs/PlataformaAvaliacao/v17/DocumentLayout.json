@@ -23,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\models\\avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Data\\Migrations\\20250430154603_ClassRemov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlataformaAvaliacao\\Data\\Migrations\\20250430154603_ClassRemov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\users\\55159\\onedrive\\\u00E1rea de trabalho\\joao\\projetos\\projeto aspnet mvc\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,16 +47,20 @@
       "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Data\\Migrations\\20250430153513_AdcNovasClasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PlataformaAvaliacao\\Data\\Migrations\\20250430153513_AdcNovasClasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\users\\55159\\onedrive\\\u00E1rea de trabalho\\joao\\projetos\\projeto aspnet mvc\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\users\\55159\\onedrive\\\u00E1rea de trabalho\\joao\\projetos\\projeto aspnet mvc\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\data\\migrations\\20250430151956_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\data\\migrations\\20250430151956_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\users\\55159\\onedrive\\\u00E1rea de trabalho\\joao\\projetos\\projeto aspnet mvc\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\data\\migrations\\20250430154603_classremov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\data\\migrations\\20250430154603_classremov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\users\\55159\\onedrive\\\u00E1rea de trabalho\\joao\\projetos\\projeto aspnet mvc\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\data\\migrations\\20250430153513_adcnovasclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\data\\migrations\\20250430153513_adcnovasclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Controllers\\AvaliacaoController.cs",
               "ToolTip": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\AvaliacaoController.cs",
               "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\AvaliacaoController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAmwGEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAADgv30AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T15:54:08.523Z",
               "EditorCaption": ""
@@ -95,8 +95,7 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:49:45.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:49:45.156Z"
             },
             {
               "$type": "Document",
@@ -108,8 +107,7 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\DisciplinaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:48:40.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:48:40.178Z"
             },
             {
               "$type": "Document",
@@ -121,12 +119,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\ProfessorController.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:47:15.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:47:15.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "20250430154603_ClassRemov.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Data\\Migrations\\20250430154603_ClassRemov.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Data\\Migrations\\20250430154603_ClassRemov.cs",
@@ -134,12 +131,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Data\\Migrations\\20250430154603_ClassRemov.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:46:03.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:46:03.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Data\\ApplicationDbContext.cs",
@@ -147,12 +143,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:04:22.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:04:22.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Disciplina.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Models\\Disciplina.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Models\\Disciplina.cs",
@@ -160,8 +155,7 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Models\\Disciplina.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:45:44.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:45:44.73Z"
             },
             {
               "$type": "Document",
@@ -173,12 +167,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Models\\Avaliacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:58:15.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:58:15.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Professor.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Models\\Professor.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Models\\Professor.cs",
@@ -186,12 +179,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Models\\Professor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:44:00.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:44:00.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "DisciplinaOfertada.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Models\\DisciplinaOfertada.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Models\\DisciplinaOfertada.cs",
@@ -199,12 +191,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Models\\DisciplinaOfertada.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:47:10.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:47:10.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Matricula.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Models\\Matricula.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Models\\Matricula.cs",
@@ -212,12 +203,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Models\\Matricula.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:52:06.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:52:06.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Models\\Usuario.cs",
@@ -225,12 +215,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:41:07.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:41:07.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "20250430153513_AdcNovasClasses.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Data\\Migrations\\20250430153513_AdcNovasClasses.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Data\\Migrations\\20250430153513_AdcNovasClasses.cs",
@@ -238,12 +227,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Data\\Migrations\\20250430153513_AdcNovasClasses.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:35:14.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:35:14.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\appsettings.json",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\appsettings.json",
@@ -251,12 +239,11 @@
               "RelativeToolTip": "PlataformaAvaliacao\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T15:21:13.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:21:13.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "20250430151956_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\55159\\OneDrive\\\u00C1rea de Trabalho\\Joao\\Projetos\\Projeto ASPNET MVC\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Data\\Migrations\\20250430151956_Inicial.cs",
               "RelativeDocumentMoniker": "PlataformaAvaliacao\\Data\\Migrations\\20250430151956_Inicial.cs",
@@ -264,8 +251,7 @@
               "RelativeToolTip": "PlataformaAvaliacao\\Data\\Migrations\\20250430151956_Inicial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:19:57.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T15:19:57.305Z"
             }
           ]
         }
