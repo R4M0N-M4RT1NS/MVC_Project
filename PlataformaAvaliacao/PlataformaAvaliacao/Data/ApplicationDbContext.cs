@@ -7,9 +7,9 @@ namespace PlataformaAvaliacao.Data;
 public class ApplicationDbContext : IdentityDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
-    {
+        : base(options) {
     }
+
     public DbSet<Usuario> Usuarios { get; set; }
     public DbSet<Disciplina> Disciplinas { get; set; }
     public DbSet<Professor> Professores { get; set; }

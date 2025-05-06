@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Dashboard de Avaliações";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Dashboard de Avaliações</h2>
+
+<p><strong>Média Total:</strong> @ViewBag.MediaTotal.ToString("0.00")</p>
+
+<h3>Média por Dia</h3>
+
+<canvas id="graficoMediaPorDia" width="800" height="400"></canvas>
+
+<table class="table table-striped mt-4">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Média</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.MediasPorDia) {
+            <tr>
+                <td>@Convert.ToDateTime(item.Data).ToString("dd/MM/yyyy")</td>
+                <td>@item.Media.ToString("0.00")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var labels = JSON.parse('@Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Labels))');
+        var dados = JSON.parse('@Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Dados))');
+
+        const ctx = document.getElementById('graficoMediaPorDia').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Média das Notas por Dia',
+                    data: dados,
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 10
+                    }
+                }
+            }
+        });
+    </script>
+}

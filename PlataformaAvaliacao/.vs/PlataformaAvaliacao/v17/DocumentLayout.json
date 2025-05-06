@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\controllers\\disciplinaofertadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\controllers\\disciplinaofertadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\views\\dash\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\views\\dash\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|c:\\hudson\\mvc_project\\plataformaavaliacao\\plataformaavaliacao\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8188EA39-418F-4344-A501-F40C1A7C0464}|PlataformaAvaliacao\\PlataformaAvaliacao.csproj|solutionrelative:plataformaavaliacao\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DisciplinaOfertadaController.cs",
-              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
-              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
-              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
-              "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\DisciplinaOfertadaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Dash\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Views\\Dash\\Index.cshtml",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Views\\Dash\\Index.cshtml",
+              "RelativeToolTip": "PlataformaAvaliacao\\Views\\Dash\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCIAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T14:49:11.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "PlataformaAvaliacao\\Controllers\\DashBoardController.cs",
+              "ToolTip": "C:\\Hudson\\MVC_Project\\PlataformaAvaliacao\\PlataformaAvaliacao\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "PlataformaAvaliacao\\Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T12:58:11.059Z",
+              "WhenOpened": "2025-05-06T14:31:26.57Z",
               "EditorCaption": ""
             }
           ]
