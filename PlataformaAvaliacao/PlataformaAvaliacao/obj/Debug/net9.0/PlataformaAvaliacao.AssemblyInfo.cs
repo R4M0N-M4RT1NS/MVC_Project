@@ -16,11 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlataformaAvaliacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aca54852a6080e51ecb062054f34059a71b6e6e5")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63775ae834e8c8c6a17733f2acb6d2f6fb4126e6")]
->>>>>>> origin/Avaliacao_1.0.3
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f40fa6fb16db1c750ac9ed801d0ab1a3a321168")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlataformaAvaliacao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlataformaAvaliacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -348,7 +348,6 @@ C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_P
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\7p0kv6tz3r-b9sayid5wm.gz
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\livzx60wvs-61n19gt1b8.gz
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\8zgtxk9vad-xtxxf3hu2r.gz
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\xbcc0kbjx3-bqjiyaj88i.gz
@@ -941,3 +940,4 @@ C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\c
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\k66d6xtgrv-zub09dkrxp.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\llgkpdwpc2-u9q1upor1n.gz
 C:\Hudson\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\7p0kv6tz3r-upwn9eq7s2.gz
+C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\Projeto ASPNET MVC\MVC_Project\PlataformaAvaliacao\PlataformaAvaliacao\obj\Debug\net9.0\compressed\7p0kv6tz3r-upwn9eq7s2.gz

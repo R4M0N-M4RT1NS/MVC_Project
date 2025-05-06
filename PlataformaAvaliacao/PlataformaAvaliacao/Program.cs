@@ -22,7 +22,9 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("PodeAvaliarDisciplina", policy =>
         policy.Requirements.Add(new AvaliacaoDisciplinaRequirement()));
 });
-builder.Services.AddSingleton<IAuthorizationHandler, AvaliacaoDisciplinaHandler>();
+
+builder.Services.AddScoped<IAuthorizationHandler, AvaliacaoDisciplinaHandler>();
+
 builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();

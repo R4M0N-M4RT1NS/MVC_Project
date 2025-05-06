@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PlataformaAvaliacao.Data;
 using PlataformaAvaliacao.Models;
@@ -28,70 +28,95 @@ namespace PlataformaAvaliacao.Controllers
         // GET: Avaliacao/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var avaliacao = await _context.Avaliacoes
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (avaliacao == null)
-            {
-                return NotFound();
-            }
+
+            if (avaliacao == null) return NotFound();
 
             return View(avaliacao);
         }
 
         // GET: Avaliacao/Create
-        public IActionResult Create()
+        [Authorize(Policy = "PodeAvaliarDisciplina")]
+        public async Task<IActionResult> Create(int disciplinaOfertadaId)
         {
-            return View();
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized();
+
+            if (!int.TryParse(userIdClaim.Value, out int userId))
+                return Unauthorized();
+
+            // Buscar a matrícula do aluno na disciplina ofertada
+            var matricula = await _context.Matriculas
+                .FirstOrDefaultAsync(m => m.UsuarioId == userId && m.DisciplinaOfertadaId == disciplinaOfertadaId);
+
+            if (matricula == null)
+                return Forbid(); // aluno não está matriculado
+
+            var avaliacao = new Avaliacao
+            {
+                MatriculaId = matricula.Id,
+                DataAvaliacao = DateTime.Now
+            };
+
+            return View(avaliacao);
         }
 
         // POST: Avaliacao/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,MatriculaId,Nota,Comentario,Recomendarai,DataAvaliacao")] Avaliacao avaliacao)
+        [Authorize(Policy = "PodeAvaliarDisciplina")]
+        public async Task<IActionResult> Create([Bind("Nota,Comentario,Recomendarai")] Avaliacao avaliacao)
         {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized();
+
+            if (!int.TryParse(userIdClaim.Value, out int userId))
+                return Unauthorized();
+
+            // Buscar a matrícula do aluno (última usada no formulário Create GET)
+            var ultimaMatricula = await _context.Matriculas
+                .Where(m => m.UsuarioId == userId)
+                .OrderByDescending(m => m.Id)
+                .FirstOrDefaultAsync();
+
+            if (ultimaMatricula == null)
+                return Forbid();
+
             if (ModelState.IsValid)
             {
+                avaliacao.MatriculaId = ultimaMatricula.Id;
+                avaliacao.DataAvaliacao = DateTime.Now;
+
                 _context.Add(avaliacao);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(avaliacao);
         }
 
         // GET: Avaliacao/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var avaliacao = await _context.Avaliacoes.FindAsync(id);
-            if (avaliacao == null)
-            {
-                return NotFound();
-            }
+            if (avaliacao == null) return NotFound();
+
             return View(avaliacao);
         }
 
         // POST: Avaliacao/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,MatriculaId,Nota,Comentario,Recomendarai,DataAvaliacao")] Avaliacao avaliacao)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,MatriculaId,Nota,Comentario,Recomendarai,DataAvaliacao,DisciplinaOfertadaId")] Avaliacao avaliacao)
         {
-            if (id != avaliacao.Id)
-            {
-                return NotFound();
-            }
+            if (id != avaliacao.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
@@ -102,37 +127,27 @@ namespace PlataformaAvaliacao.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!AvaliacaoExists(avaliacao.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!AvaliacaoExists(avaliacao.Id)) return NotFound();
+                    throw;
                 }
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(avaliacao);
         }
 
         // GET: Avaliacao/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var avaliacao = await _context.Avaliacoes
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (avaliacao == null)
-            {
-                return NotFound();
-            }
 
-            ViewData["Title"] = "Delete";
-            return View("Details", avaliacao); // Reutilizando a View
+            if (avaliacao == null) return NotFound();
+
+            return View(avaliacao);
         }
 
         // POST: Avaliacao/Delete/5
@@ -144,9 +159,9 @@ namespace PlataformaAvaliacao.Controllers
             if (avaliacao != null)
             {
                 _context.Avaliacoes.Remove(avaliacao);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
