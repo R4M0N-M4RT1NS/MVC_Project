@@ -1,9 +1,10 @@
 ﻿@model PlataformaAvaliacao.Models.Avaliacao
 @{
-    var isDelete = ViewData["Title"]?.ToString() == "Delete";
-    ViewData["Title"] = isDelete ? "Excluir Avaliação" : "Detalhes da Avaliação";
+    ViewData["Title"] = "Details";
 }
-<h1>@ViewData["Title"]</h1>
+
+<h1>Detalhes de Avaliação</h1>
+
 <hr />
 <div class="card bg-metal border-secondary shadow-sm">
     <div class="card-body">
@@ -19,17 +20,7 @@
             <dt class="col-sm-3">@Html.DisplayNameFor(model => model.DataAvaliacao)</dt>
             <dd class="col-sm-9">@Html.DisplayFor(model => model.DataAvaliacao)</dd>
         </dl>
-
-        @if (isDelete) {
-            <form asp-action="Delete">
-                <input type="hidden" asp-for="Id" />
-                <button type="submit" class="btn btn-danger rounded-pill">Confirmar Exclusão</button>
-                <a asp-action="Index" class="btn btn-outline-light rounded-pill">Cancelar</a>
-            </form>
-        }
-        else {
-            <a asp-controller="Avaliacao" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-primary rounded-pill">Editar</a>
-            <a asp-controller="Avaliacao" asp-action="Index" class="btn btn-outline-light rounded-pill">Voltar</a>
-        }
+        <a asp-controller="Avaliacao" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-primary rounded-pill">Editar Avaliação</a>
+        <a asp-controller="Avaliacao" asp-action="Index" class="btn btn-outline-light rounded-pill">Voltar</a>
     </div>
 </div>

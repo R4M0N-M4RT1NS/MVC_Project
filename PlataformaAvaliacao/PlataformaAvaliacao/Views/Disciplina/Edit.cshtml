@@ -1,17 +1,13 @@
 ﻿@model PlataformaAvaliacao.Models.Disciplina
 @{
-    var isEdit = ViewData["Title"]?.ToString() == "Edit";
-    ViewData["Title"] = isEdit ? "Editar Avaliação" : "Nova Avaliação";
+    ViewData["Title"] = "Edit";
 }
-<h1>@ViewData["Title"]</h1>
+<h1>Editar Disciplina</h1>
 <hr />
 <div class="card bg-metal border-light shadow-sm">
     <div class="card-body">
-        <form asp-action="@ViewData["Title"]">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @if (isEdit) {
-                <input type="hidden" asp-for="Id" />
-            }
             <div class="mb-3">
                 <label asp-for="Nome" class="form-label"></label>
                 <input asp-for="Nome" class="form-control" />
@@ -22,7 +18,7 @@
                 <input asp-for="Codigo" class="form-control" />
                 <span asp-validation-for="Codigo" class="text-danger"></span>
             </div>
-            <button type="submit" class="btn btn-primary rounded-pill">@ViewData["Title"]</button>
+            <button type="submit" class="btn btn-primary rounded-pill">Editar</button>
             <a asp-controller="Disciplina" asp-action="Index" class="btn btn-outline-light rounded-pill">Voltar</a>
         </form>
     </div>

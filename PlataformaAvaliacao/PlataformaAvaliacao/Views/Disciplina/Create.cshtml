@@ -1,22 +1,15 @@
 ﻿@model PlataformaAvaliacao.Models.Disciplina
 @{
-    var isEdit = ViewData["Title"]?.ToString() == "Edit";
-    ViewData["Title"] = isEdit ? "Create" : "Edit";
+    ViewData["Title"] = "Create";
 }
-@if (isEdit) {
-    <h1>Editar Disciplina</h1>
-}
-else {
-    <h1>Nova Disciplina</h1>
-}
+
+<h1>Nova Disciplina</h1>
+
 <hr />
 <div class="card bg-metal border-light shadow-sm">
     <div class="card-body">
-        <form asp-action="@ViewData["Title"]">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @if (isEdit) {
-                <input type="hidden" asp-for="Id" />
-            }
             <div class="mb-3">
                 <label asp-for="Nome" class="form-label"></label>
                 <input asp-for="Nome" class="form-control" />

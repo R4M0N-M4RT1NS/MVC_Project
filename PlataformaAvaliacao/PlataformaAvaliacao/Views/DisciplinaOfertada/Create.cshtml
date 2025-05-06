@@ -1,46 +1,46 @@
 ﻿@model PlataformaAvaliacao.Models.DisciplinaOfertada
+
 @{
-    var isEdit = ViewData["Title"]?.ToString() == "Create";
-    ViewData["Title"] = isEdit ? "Create" : "Edit";
+    ViewData["Title"] = "Create";
 }
 
-<h1>@ViewData["Title"]</h1>
-<hr />
+<h1>Create</h1>
 
-<div class="card bg-metal border-light shadow-sm">
-    <div class="card-body">
-        <form asp-action="@ViewData["Title"]">
+<h4>DisciplinaOfertada</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @if (isEdit) {
-                <input type="hidden" asp-for="Id" />
-            }
-            <div class="mb-3">
-                <label asp-for="DisciplinaId" class="form-label">Id da Disciplina</label>
-                <input asp-for="DisciplinaId" class="form-control" />
-                <span asp-validation-for="DisciplinaId" class="text-danger"></span>
+            <div class="form-group">
+                <label asp-for="DisciplinaId" class="control-label"></label>
+                <select asp-for="DisciplinaId" class ="form-control" asp-items="ViewBag.DisciplinaId"></select>
             </div>
-            <div class="mb-3">
-                <label asp-for="ProfessorId" class="form-label">Id do Professor</label>
-                <input asp-for="ProfessorId" class="form-control" />
-                <span asp-validation-for="ProfessorId" class="text-danger"></span>
+            <div class="form-group">
+                <label asp-for="ProfessorId" class="control-label"></label>
+                <select asp-for="ProfessorId" class ="form-control" asp-items="ViewBag.ProfessorId"></select>
             </div>
-            <div class="mb-3">
-                <label asp-for="Ano" class="form-label">Ano</label>
+            <div class="form-group">
+                <label asp-for="Ano" class="control-label"></label>
                 <input asp-for="Ano" class="form-control" />
                 <span asp-validation-for="Ano" class="text-danger"></span>
             </div>
-            <div class="mb-3">
-                <label asp-for="Semestre" class="form-label">Semestre</label>
+            <div class="form-group">
+                <label asp-for="Semestre" class="control-label"></label>
                 <input asp-for="Semestre" class="form-control" />
                 <span asp-validation-for="Semestre" class="text-danger"></span>
             </div>
-            <button type="submit" class="btn btn-primary rounded-pill">Criar</button>
-            <a asp-controller="Disciplina" asp-action="Index" class="btn btn-outline-light rounded-pill">Voltar</a>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
         </form>
     </div>
 </div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

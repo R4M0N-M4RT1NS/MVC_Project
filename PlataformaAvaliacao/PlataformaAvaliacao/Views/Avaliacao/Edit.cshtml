@@ -1,23 +1,15 @@
 ﻿@model PlataformaAvaliacao.Models.Avaliacao
 @{
-    var isEdit = ViewData["Title"]?.ToString() == "Edit";
-    ViewData["Title"] = isEdit ? "Create" : "Edit";
+    ViewData["Title"] = "Edit";
 }
-@if (isEdit) {
-    <h1>Editar Avaliação</h1>
-}
-else {
-    <h1>Deletar Avaliação</h1>
-}
+
+<h1>Editar Avaliação</h1>
 
 <hr />
 <div class="card bg-metal border-light shadow-sm">
     <div class="card-body">
-        <form asp-action="@ViewData["Title"]">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @if (isEdit) {
-                <input type="hidden" asp-for="Id" />
-            }
             <div class="mb-3">
                 <label asp-for="MatriculaId" class="form-label"></label>
                 <input asp-for="MatriculaId" class="form-control" />
@@ -42,7 +34,7 @@ else {
                 <input asp-for="DataAvaliacao" class="form-control" />
                 <span asp-validation-for="DataAvaliacao" class="text-danger"></span>
             </div>
-            <button type="submit" class="btn btn-primary rounded-pill">@ViewData["Title"]</button>
+            <button type="submit" class="btn btn-primary rounded-pill">Editar</button>
             <a asp-controller="Avaliacao" asp-action="Index" class="btn btn-outline-light rounded-pill">Voltar</a>
         </form>
     </div>
